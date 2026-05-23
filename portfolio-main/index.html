@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Matheus Oliveira | Dev · Tráfego · Criativo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons (leve, CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ── WHATSAPP FIXO ── -->
+    <a href="https://wa.me/SEUNUMERO" target="_blank" class="wa-btn" aria-label="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- ── HEADER ── -->
+    <header>
+        <div class="container">
+            <nav class="hidden-mobile" style="display:flex;gap:2.5rem;">
+                <a href="#sobre">Sobre</a>
+                <a href="#qualificacoes">Skills</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#mira">Mira</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button id="mobile-menu-button" style="background:none;border:none;color:#e8e8f0;cursor:pointer;display:none;" aria-label="Menu">
+                <i data-lucide="menu" style="width:24px;height:24px;"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ═══════════════════════════════
+             HERO — SOBRE MIM
+        ════════════════════════════════ -->
+        <section id="sobre">
+            <div class="container">
+                <div class="hero-flex">
+
+                    <!-- Texto -->
+                    <div class="hero-content reveal">
+                        <div class="hero-tag">
+                            <span class="dot"></span>
+                            Disponível para projetos
+                        </div>
+
+                        <h1 class="hero-title">
+                            Lógica, <span class="grad-text">criatividade</span><br>
+                            e resultado.
+                        </h1>
+
+                        <p class="hero-desc">
+                            Eai! Me chamo Matheus, tenho 21 anos e sou de Garanhuns (PE).
+                            Combino desenvolvimento em Java, gestão de tráfego pago e produção de conteúdo visual
+                            para entregar soluções que realmente convertem.
+                        </p>
+
+                        <div class="hero-chips">
+                            <span class="hero-chip">☕ Java Developer</span>
+                            <span class="hero-chip">📈 Meta Ads</span>
+                            <span class="hero-chip">🎬 Criativo Digital</span>
+                            <span class="hero-chip">📍 Garanhuns, PE</span>
+                        </div>
+
+                        <div class="hero-actions">
+                            <a href="#" class="btn-grad">
+                                <span>Baixar Currículo</span>
+                                <i data-lucide="download" style="width:16px;height:16px;"></i>
+                            </a>
+                            <a href="https://wa.me/5587996515872" class="btn-outline">
+                                <i class="bi bi-send"></i>
+                                Falar comigo
+                            </a>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="stats-row reveal" style="transition-delay:200ms;">
+                            <div class="stat-item">
+                                <span class="stat-num" data-count="1" data-suffix="+ ano">0</span>
+                                <span class="stat-label">Gestão de Tráfego</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num" data-count="2" data-suffix="+ proj">0</span>
+                                <span class="stat-label">Projetos Java</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num" data-count="50" data-suffix="+ peças">0</span>
+                                <span class="stat-label">Criativos produzidos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Avatar -->
+                    <div class="avatar-wrap reveal" style="transition-delay:300ms;">
+                        <div class="avatar-ring">
+                            <div class="avatar-img">
+                                <img src="https://placehold.co/400x400/1a1a28/c026d3?text=MO" alt="Matheus Oliveira">
+                            </div>
+                        </div>
+
+                        <!-- Badges flutuantes -->
+                        <div class="badge-float" style="bottom:-10px;left:-30px;">
+                            <i class="bi bi-code-slash" style="color:#c026d3;"></i>
+                            Java
+                        </div>
+                        <div class="badge-float" style="top:10px;right:-40px;">
+                            <i class="bi bi-graph-up-arrow" style="color:#f87171;"></i>
+                            Meta Ads
+                        </div>
+                        <div class="badge-float" style="top:55%;left:-50px;">
+                            <i class="bi bi-camera-video" style="color:#c084fc;"></i>
+                            Editor de vídeo
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════
+             QUALIFICAÇÕES / SKILLS
+        ════════════════════════════════ -->
+        <section id="qualificacoes">
+            <div class="container">
+                <div class="reveal" style="margin-bottom:3rem;">
+                    <div class="section-label">Habilidades</div>
+                    <h2 class="section-title">O que eu faço</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Java -->
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="bi bi-code-slash" style="color:#c026d3;"></i></div>
+                        <h3>Estudante Dev Java</h3>
+                        <p>Programação orientada a objetos, estruturas de dados, CRUD, aplicações CLI e conceitos de desenvolvimento web back-end.</p>
+                        <span class="skill-badge purple">Estudante ativo</span>
+                    </div>
+
+                    <!-- Tráfego -->
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="bi bi-graph-up-arrow" style="color:#f87171;"></i></div>
+                        <h3>Gestor de Tráfego Júnior</h3>
+                        <p>Mais de 1 ano gerenciando campanhas no Meta Ads. Criação de públicos, análise de métricas, otimização de budget e CPA.</p>
+                        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem;">
+                            <span class="skill-badge red">1+ ano</span>
+                            <span class="skill-badge red">Meta Ads</span>
+                        </div>
+                    </div>
+
+                    <!-- Criativo Digital -->
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="bi bi-palette2" style="color:#c084fc;"></i></div>
+                        <h3>Criativo Digital</h3>
+                        <p>Design gráfico para anúncios e identidade visual (Affinity) + edição de vídeo (Capcut). Da arte estática ao vídeo, tudo que uma campanha precisa para chamar atenção.</p>
+                        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem;">
+                            <span class="skill-badge mid">Design</span>
+                            <span class="skill-badge mid">Vídeo</span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="bi bi-megaphone" style="color:#c026d3;"></i></div>
+                        <h3>Copy & Estratégia</h3>
+                        <p>Criação de copies persuasivos, scripts para vídeo e estratégias de conteúdo alinhadas à jornada do cliente e à conversão.</p>
+                        <span class="skill-badge purple">Marketing Digital</span>
+                    </div> -->
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════
+             PROJETOS JAVA
+        ════════════════════════════════ -->
+        <section id="projetos">
+            <div class="container">
+                <div class="reveal" style="margin-bottom:3rem;">
+                    <div class="section-label">Desenvolvimento</div>
+                    <h2 class="section-title">Projetos Java</h2>
+                    <p style="color:var(--col-muted);margin-top:.5rem;font-size:.95rem;">Construindo habilidades, um projeto de cada vez.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Projeto 1 — LIBERADO (exemplo para o futuro) -->
+                    <div class="project-card reveal">
+                        <span class="project-lang"><span class="dot-lang"></span>Java</span>
+                        <h3>Controle de Estoque (CLI)</h3>
+                        <p>Aplicação de console para gerenciar produtos, entradas e saídas — CRUD completo com manipulação de dados.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">OOP</span>
+                            <span class="project-tag">CLI</span>
+                            <span class="project-tag">CRUD</span>
+                        </div>
+                        <!-- LOCK -->
+                        <div class="project-lock">
+                            <span class="lock-icon">🔒</span>
+                            <span class="lock-label">Em desenvolvimento</span>
+                            <span style="font-size:.7rem;color:var(--col-muted);margin-top:.25rem;">Em breve no GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="project-card reveal">
+                        <span class="project-lang"><span class="dot-lang"></span>Java</span>
+                        <h3>App Rastreamento de Ônibus</h3>
+                        <p>Projeto acadêmico (Codify) simulando rastreamento de transporte público com lógica de geolocalização e horários.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Geolocalização</span>
+                            <span class="project-tag">Acadêmico</span>
+                        </div>
+                        <div class="project-lock">
+                            <span class="lock-icon">🔒</span>
+                            <span class="lock-label">Em desenvolvimento</span>
+                            <span style="font-size:.7rem;color:var(--col-muted);margin-top:.25rem;">Em breve no GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="project-card reveal">
+                        <span class="project-lang"><span class="dot-lang"></span>Java</span>
+                        <h3>Simulador de Conta Bancária</h3>
+                        <p>Conta corrente e poupança usando POO, Herança e Polimorfismo. Gerencia saldos, saques e depósitos.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Herança</span>
+                            <span class="project-tag">Polimorfismo</span>
+                        </div>
+                        <div class="project-lock">
+                            <span class="lock-icon">🔒</span>
+                            <span class="lock-label">Em desenvolvimento</span>
+                            <span style="font-size:.7rem;color:var(--col-muted);margin-top:.25rem;">Em breve no GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="project-card reveal">
+                        <span class="project-lang"><span class="dot-lang"></span>Java</span>
+                        <h3>Calculadora de Média de Alunos</h3>
+                        <p>Ferramenta para calcular médias, aprovação e recuperação — prática de lógica de programação e condicionais.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Lógica</span>
+                            <span class="project-tag">Condicionais</span>
+                        </div>
+                        <div class="project-lock">
+                            <span class="lock-icon">🔒</span>
+                            <span class="lock-label">Em desenvolvimento</span>
+                            <span style="font-size:.7rem;color:var(--col-muted);margin-top:.25rem;">Em breve no GitHub</span>
+                        </div>
+                    </div> -->
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════
+             ASSESSORIA MIRA
+        ════════════════════════════════ -->
+        <section id="mira">
+            <div class="container">
+                <div class="reveal" style="margin-bottom:3rem;">
+                    <div class="section-label">Trabalho Real</div>
+                    <h2 class="section-title">Assessoria Mira</h2>
+                    <p style="color:var(--col-muted);margin-top:.5rem;font-size:.95rem;">Onde coloco em prática tráfego, criatividade e copy.</p>
+                </div>
+
+                <div class="mira-card reveal">
+                    <div class="mira-header">
+                        <div class="mira-logo">
+                            <img src="logo.jpeg" alt="Logo da Mira" style="width:100%;height:auto;">
+                        </div>
+                        <div>
+                            <h3>Mira — Assessoria de Marketing</h3>
+                            <p>Gestão de redes sociais, anúncios e identidade visual</p>
+                        </div>
+                    </div>
+
+                    <p class="mira-desc">
+                        A Mira é o projeto onde tudo se conecta. Cuido da estratégia de conteúdo, 
+                        gestão de tráfego pago no Meta Ads, criação de criativos visuais e edição de vídeos 
+                        para redes sociais. É aqui que comprovo que teoria vira resultado.
+                    </p>
+
+                    <!-- Estatísticas de tráfego — preencha com seus dados reais -->
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-bottom:2rem;">
+                        <div style="background:rgba(220,38,38,0.07);border:1px solid rgba(220,38,38,0.2);border-radius:12px;padding:1.25rem;text-align:center;">
+                            <div class="stat-num" style="font-size:1.5rem;background:linear-gradient(135deg,#dc2626,#f87171);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;; " data-count="10" data-suffix="k+">0</div>
+                            <div class="stat-label" style="margin-top:.3rem;">Alcance mensal</div>
+                        </div>
+                        <div style="background:rgba(220,38,38,0.07);border:1px solid rgba(220,38,38,0.2);border-radius:12px;padding:1.25rem;text-align:center;">
+                            <div class="stat-num" style="font-size:1.5rem;background:linear-gradient(135deg,#dc2626,#f87171);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" data-count="10" data-suffix="+ camps.">-</div>
+                            <div class="stat-label" style="margin-top:.3rem;">Campanhas ativas</div>
+                        </div>
+                        <div style="background:rgba(220,38,38,0.07);border:1px solid rgba(220,38,38,0.2);border-radius:12px;padding:1.25rem;text-align:center;">
+                            <div class="stat-num" style="font-size:1.5rem;background:linear-gradient(135deg,#dc2626,#f87171);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">≅ R$ 50k</div>
+                            <div class="stat-label" style="margin-top:.3rem;">Verba gerenciada</div>
+                        </div>
+                    </div>
+
+                    <!-- works itens  -->
+                    <h4 style="font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;color:var(--col-muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:1rem;">O que produzimos</h4>
+                    <div class="mira-works">
+                        <div class="work-item">
+                            <div class="wi-icon">🎨</div>
+                            <h4>Design</h4>
+                            <p>Criativos para feed, stories e anúncios</p>
+                        </div>
+                        <div class="work-item">
+                            <div class="wi-icon">🎬</div>
+                            <h4>Vídeos</h4>
+                            <p>Edição para Reels e campanhas pagas</p>
+                        </div>
+                        <div class="work-item">
+                            <div class="wi-icon">✍️</div>
+                            <h4>Copywriting</h4>
+                            <p>Textos que engajam e convertem</p>
+                        </div>
+                        <div class="work-item">
+                            <div class="wi-icon">📊</div>
+                            <h4>Meta Ads</h4>
+                            <p>Campanhas otimizadas para resultado</p>
+                        </div>
+                    </div>
+
+                    <!-- Nota sobre portfólio visual -->
+                    <div style="margin-top:2rem;padding:1rem 1.25rem;background:rgba(255,255,255,0.03);border:1px solid var(--col-border);border-radius:10px;display:flex;align-items:center;gap:.75rem;">
+                        <i class="bi bi-images" style="color:var(--col-muted);font-size:1.2rem;flex-shrink:0;"></i>
+                        <p style="font-size:.82rem;color:var(--col-muted);line-height:1.6;">
+                            <strong style="color:var(--col-text);">Portfólio visual em breve —</strong>
+                            galeria de designs, capturas de dashboard do Meta Ads e vídeos produzidos serão adicionados aqui.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════
+         FOOTER / CONTATO
+    ════════════════════════════════ -->
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-cta reveal">
+                <h2>Vamos criar algo incrível<br><span style="background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">juntos?</span></h2>
+                <p>Aberto a projetos freelance, colaborações e oportunidades. Me manda uma mensagem!</p>
+                <a href="mailto:matt04.oliv@gmail.com" class="btn-grad">
+                    <span>Enviar e-mail</span>
+                    <i data-lucide="mail" style="width:16px;height:16px;"></i>
+                </a>
+
+                <div class="social-links">
+                    <a href="mailto:matt04.oliv@gmail.com" class="social-link" title="E-mail">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matheus-oliveira-1a8a23267/" class="social-link" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/matt04-oliv" class="social-link" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://wa.me/87996515872" class="social-link" title="WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mattoliv04/" class="social-link" title="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom reveal">
+                <span>© 2025 Matheus Oliveira. Todos os direitos reservados.</span>
+                <span style="background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:600;">feito com muito café, html, css e js</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ── SCRIPTS ── -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+
+    <!-- Garante menu mobile no mobile (sem Tailwind breakpoint) -->
+    <script>
+    (function(){
+        const btn = document.querySelector('header nav');
+        if(window.innerWidth < 768 && btn) btn.style.display = 'none';
+        document.getElementById('mobile-menu-button').style.display = window.innerWidth < 768 ? 'block' : 'none';
+        window.addEventListener('resize', () => {
+            const nav = document.querySelector('header nav');
+            const mob = document.getElementById('mobile-menu-button');
+            if(nav) nav.style.display = window.innerWidth < 768 ? 'none' : 'flex';
+            if(mob) mob.style.display = window.innerWidth < 768 ? 'block' : 'none';
+        });
+    })();
+    </script>
+</body>
+</html>
